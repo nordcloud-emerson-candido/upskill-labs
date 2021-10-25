@@ -33,3 +33,9 @@ variable "random_suffix_length" {
   description = "Lenght of the random ending"
   default     = 8
 }
+
+#variable "location" {
+#  type        = string
+#  description = "Location of the virtual network"
+#  default = ""
+#}

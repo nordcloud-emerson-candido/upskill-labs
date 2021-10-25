@@ -16,5 +16,6 @@ module "azure-remote-backend" {
 
   resource_group_name  = "rg-lab-tf-we"
   location             = "westeurope"
+  #location             = var.location == "" ? "westeurope" : var.location
   storage_account_name = "stejata${random_string.this.result}"
 }
